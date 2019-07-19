@@ -7,7 +7,7 @@ var typesMaterils = {
                       article: "Статьи"
                      };
 
-var jsonContentFile = "http://pm-pu.ru/marx/index.json";
+var jsonContentFile = "catalog.json";
 
 var oReq = new XMLHttpRequest();
 oReq.onload = makeDOMTree;
