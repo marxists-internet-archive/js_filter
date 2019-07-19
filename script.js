@@ -7,7 +7,7 @@ var typesMaterils = {
                       article: "Статьи"
                      };
 
-var jsonContentFile = "catalog.json";
+var jsonContentFile = "../catalog.json";
 
 var oReq = new XMLHttpRequest();
 oReq.onload = makeDOMTree;
